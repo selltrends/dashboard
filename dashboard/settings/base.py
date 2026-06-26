@@ -24,6 +24,8 @@ BASE_DIR = PROJECT_DIR.parent
 # Application definition
 
 INSTALLED_APPS = [
+    # Our apps
+    # Wagtail apps
     "wagtail.contrib.forms",
     "wagtail.contrib.redirects",
     "wagtail.embeds",
@@ -35,8 +37,18 @@ INSTALLED_APPS = [
     "wagtail.search",
     "wagtail.admin",
     "wagtail",
+    # Optional Wagtail apps
+    #"wagtail.contrib.routable_page",
+    "wagtail.contrib.settings",
+    "wagtail.contrib.search_promotions",
+    # Forms
+    "wagtail_flexible_forms",
+    # SEO
+    "wagtailseo",
+    # Third-party apps
     "modelcluster",
     "taggit",
+    # Django apps
     "django_filters",
     "django.contrib.admin",
     "django.contrib.auth",
