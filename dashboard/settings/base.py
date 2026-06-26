@@ -25,6 +25,14 @@ BASE_DIR = PROJECT_DIR.parent
 
 INSTALLED_APPS = [
     # Our apps
+    "apps.core",
+    "apps.pages",
+    "apps.blocks",
+    "apps.navigation.apps.NavigationConfig",
+    "apps.settings",
+    "apps.search",
+    "apps.forms",
+    "apps.snippets",
     # Wagtail apps
     "wagtail.contrib.forms",
     "wagtail.contrib.redirects",
