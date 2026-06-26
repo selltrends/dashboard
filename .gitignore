@@ -468,3 +468,6 @@ $RECYCLE.BIN/
 
 # Environment variables
 .env
+
+# Vite
+node_modules
