@@ -174,7 +174,7 @@ class CtaSnippetBlock(blocks.StructBlock):
     cta = SnippetChooserBlock(Cta)
 
     class Meta:
-        icon = "bullhorn"
+        icon = "tag"
         template = "blocks/cta_snippet_block.html"
         label = "CTA Snippet"
 
@@ -210,7 +210,7 @@ class TwoColumnBlock(blocks.StructBlock):
     right_column = BaseStreamBlock(required=False)
 
     class Meta:
-        icon = "grip"
+        icon = "plus"
         template = "blocks/two_column_block.html"
 
 
@@ -256,7 +256,7 @@ class SimpleHeroBlock(blocks.StructBlock):
     )
 
     class Meta:
-        icon = "image"
+        icon = "thumbtack"
         template = "blocks/simple_hero_block.html"
         label = "Simple Hero"
 
@@ -269,7 +269,7 @@ class SliderBlock(blocks.StructBlock):
     slides = BaseStreamBlock(required=False)
 
     class Meta:
-        icon = "image"
+        icon = "sliders"
         template = "blocks/slider_block.html"
 
 
@@ -281,7 +281,7 @@ class MarqueeBlock(blocks.StructBlock):
     items = BaseStreamBlock(required=False)
 
     class Meta:
-        icon = "arrow-right"
+        icon = "spinner"
         template = "blocks/marquee_block.html"
 
 

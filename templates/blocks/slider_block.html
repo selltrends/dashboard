@@ -1,9 +1,9 @@
-{% load wagtailcore_tags %}
+{% load wagtailcore_tags  %}
 
 <div class="slider">
     {% for slide in self.slides %}
         <div class="slide">
-            {% include_block slide %}
+            {{% include_block slide %}}
         </div>
     {% endfor %}
 </div>
